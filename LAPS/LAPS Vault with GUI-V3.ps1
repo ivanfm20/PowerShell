@@ -2,7 +2,7 @@
 # 
 # Created By Ivan M. - https://github.com/ivanfm20/PowerShell
 # Created on: 30/01/2021
-# Last update on: 01/02/2021
+# Last update on: 02/02/2021
 
 # Add form and all functions
 Add-Type -AssemblyName System.Windows.Forms
