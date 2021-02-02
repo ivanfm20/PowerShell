@@ -1,6 +1,6 @@
 ﻿# Script with GUI to connect to remote hosts through MSTSC with LAPS password.
 # 
-# Created By Ivan Moreno - https://github.com/ivanfm20/PowerShell
+# Created By Ivan M. - https://github.com/ivanfm20/PowerShell
 # Created on: 30/01/2021
 # Last update on: 01/02/2021
 
