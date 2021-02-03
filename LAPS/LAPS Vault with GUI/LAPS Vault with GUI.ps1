@@ -1,8 +1,9 @@
 ﻿# Script with GUI to connect to remote hosts through MSTSC with LAPS password.
+# This script use a function to connect through MSTSC automatically, with a function "Connect-Mstsc" created by "Jaap Brasser" (quoted below)
 # 
 # Created By Ivan M. - https://github.com/ivanfm20/PowerShell
 # Created on: 30/01/2021
-# Last update on: 02/02/2021
+# Last update on: 03/02/2021
 
 # Add form and all functions
 Add-Type -AssemblyName System.Windows.Forms
