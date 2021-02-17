@@ -1,4 +1,4 @@
-**EN-US**
+`EN-US`
 # Script to evaluate SID 500 Local Administrator logins (remotely)
 
 This script was developed to remotely query (via Get-WinEvent) logons with the local SID 500 account.
@@ -15,7 +15,7 @@ Some considerations about running the script:
 - It is recommended to run initially on a small number of machines (10, for example) to evaluate performance, before running on a larger number.
 
 
-**PT-BR**
+`PT-BR`
 # Script para avaliar logins de administrador local SID 500 (remotamente)
 
 Este script foi desenvolvido para consultar remotamente (via Get-WinEvent) logons com a conta local de SID 500.

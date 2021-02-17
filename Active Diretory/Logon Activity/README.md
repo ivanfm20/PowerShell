@@ -1,4 +1,4 @@
-**EN-US**
+`EN-US`
 # Script to identify logon activity
 
 This script was developed to search log activity for a specific user, inserted in the script execution. It can be used to identify activity on accounts suspected of being compromised or to assess the use of a particular account.
@@ -16,7 +16,7 @@ Important points for execution:
 - It is important that the hosts have the system time synchronized with the DCs, to avoid mismatch of information
 
 
-**PT-BR**
+`PT-BR`
 # Script para identificar a atividade de logon
 
 Este script foi desenvolvido para pesquisar a atividade de log de um determinado usuário, inserido na execução do script. Ele pode ser usado para identificar atividades em contas suspeitas de estarem comprometidas ou para avaliar o uso de uma conta específica.
