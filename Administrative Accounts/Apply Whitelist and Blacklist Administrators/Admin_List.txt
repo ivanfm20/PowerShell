@@ -1,0 +1,11 @@
+List,Computer,Account
+whitelist,HOST1,DomainName\user1
+whitelist,ANY,administrator
+whitelist,ANY,DomainName\HelpDesk
+whitelist,HOST2,HOST2\LocalAdmin
+whitelist,HOST3,HOST3\SQL_Account
+whitelist,ANY,DomainName\Domain Admins
+blacklist,HOST4,HOST4\brian
+blacklist,ANY,DomainName\Service_Account
+blacklist,ANY,Guest
+#blacklist,HOST4,DomainName\User_TI
