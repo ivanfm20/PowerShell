@@ -4,7 +4,7 @@
 # outbound with ANY/ANY, increases the size of the log and enables the logs for the profiles.
 #
 # Created By Ivan M. - https://github.com/ivanfm20/PowerShell
-# Last update on: 26/02/2021
+# Last update on: 26/03/2021
 #
 # -------------------------------------------------------------------------------------------------------------
 
@@ -51,6 +51,7 @@ netsh advfirewall export C:\Temp\Firewall_Rules.wfw
 # Removes created rules (which are already removed when the backup is imported in the row above)
 # netsh advfirewall firewall set rule name="_Allow_ANY_Inbound" new enable=no
 # netsh advfirewall firewall set rule name="_Allow_ANY_Outbound" new enable=no
+# netsh advfirewall set allprofiles firewallpolicy blockinbound,allowoutbound
 
 # Export the rules in .CSV
 $Rules = (New-object –comObject HNetCfg.FwPolicy2).rules
@@ -77,6 +78,8 @@ netsh advfirewall set allprofiles logging allowedconnections enable
 # Enable all Firewall profiles
 netsh advfirewall set allprofiles state on
 
+# Enable default firewall actions
+netsh advfirewall set allprofiles firewallpolicy allowinbound,allowoutbound
 
 # Below, some examples of rules to be applied after evaluating the logs
 
