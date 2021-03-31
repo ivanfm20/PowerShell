@@ -1,7 +1,8 @@
-﻿# Este script tem como objetivo coletar os logs locais de um host, e salvar o resultado em um arquivo .CSV (além de exibir no Grid).
+﻿# This script was developed to search log activity for a specific user, inserted in the script execution.
+# It can be used to identify activity on accounts suspected of being compromised or to search the use of a particular account.
 #
 # Created By Ivan M. - https://github.com/ivanfm20/PowerShell
-# Last update on: 16/02/2021
+# Last update on: 30/03/2021
 #
 
 # Variables - Clear the required variables
